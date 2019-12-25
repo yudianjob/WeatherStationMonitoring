@@ -1,0 +1,74 @@
+.actually {
+  border-radius: 100px;
+  width: 3rem;
+  height: 3rem;
+}
+.wind-true {
+  background-color: yellow;
+  margin-left: -9px;
+}
+.temperature-true {
+  background-color: green;
+}
+.humidity-true {
+  background-color: #06d0f7;
+}
+.pressure-true {
+  background-color: red ;
+}
+.a-true {
+  display: block;
+}
+.img-true {
+  width: 100%;
+  height: 100%;
+}
+.table-hour {
+  border: 1px solid #a29d9d;
+  background-color: white;
+  text-align: center;
+  width: 100%;
+  font-size: 0.6rem;
+}
+table.table-hour td {
+  border: 1px solid #c7c0c0;
+  padding: 1px;
+}
+table.table-hour th {
+  border: 1px solid #9c9696;
+}
+.table-sys {
+  border: 1px solid #a29d9d;
+  background-color: white;
+  text-align: center;
+  width: 100%;
+  font-size: 0.6rem;
+}
+table.table-sys td {
+  border: 1px solid #c7c0c0;
+  padding: 0.5rem;
+}
+table.table-sys th {
+  border: 1px solid #9c9696;
+  max-width: 25%;
+}
+.slid-p {
+  border: 0.5px solid #c7c2c2;
+}
+.title-m {
+  color: coral;
+}
+.subtitle {
+  color: #c7b9b9;
+}
+.subright {
+  float: right;
+}
+.icon-c {
+  border-top: 14px solid #0d8bda;
+  border-left: 12px solid #ffff000a;
+  border-right: 12px solid #0000ff00;
+  /* border-bottom: 20px solid #ea1c40; */
+  display: inline-block;
+  border-radius: 87px;
+}

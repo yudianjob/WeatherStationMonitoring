@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>站点监测</title>
+    <!-- <link rel="stylesheet" href="./src/css/reset.css"></link> -->
+
+    <!-- <link rel="shortcut icon" href="/favicon.ico"> -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <link rel="stylesheet" href="./src/sul-mobile/css/sm.css">
+    <link rel="stylesheet" href="./src/sul-mobile/css/sm-extend.css">
+    <link rel="stylesheet" href='./src/css/index.css'></link>
+    <style>
+        body {
+            font-size: .7rem;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div>
+        <!-- 选项卡 -->
+        <div class="content">
+            <div class="buttons-tab">
+                <a href="#tab1" class="tab-link active button">实况监测</a>
+                <a href="#tab2" class="tab-link button">系统配置</a>
+            </div>
+            <div class="content-block">
+                <div class="tabs">
+                    <div id="tab1" class="tab active">
+
+                        <!-- <div class="buttons-row">
+                            <a href="#tab1-1" class="tab-link button active">Tab 1</a>
+                            <a href="#tab1-2" class="tab-link button">Tab 2</a>
+                            
+                          </div>
+                          <div class="tabs">
+                            <p class="tab active" id="tab1-1">This is tab 1-1 content</p>
+                            <p class="tab" id="tab1-2">This is tab 1-2 content</p>
+                           
+                          </div> -->
+
+
+                        <div class="content-block">
+                            <!-- <p><a href="#" class="button button-warning">实况数据</a></p> -->
+                            <h3 class="title-m">实况数据</h3>
+                            <!-- <h3></h3> -->
+                            <!-- <p> 站号：58457 <span>时间：2019-12-12 11:10:10</span></p> -->
+                            <div class="" style="margin-bottom: 10px;">
+                                <span class="subtitle">
+                                    站号: </span>
+                                <a href="#" class="create-actions-stations">58457</a>
+                                <div class="icon-c"></div>
+                                <div class="">
+                                    <span class="subtitle">时间：2019-12-12 11:10:10</span > </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-25">
+                                    <div class=" actually wind-true"></div><a class="a-true">12.5m/s</a>风</div>
+                                <div class="col-25">
+                                    <div class="actually temperature-true"></div><a class="a-true">9°C</a>温度</div>
+                                <div class="col-25">
+                                    <div class="actually humidity-true"></div><a class="a-true">70%</a>湿度</div>
+                                <div class="col-25">
+                                    <div class="actually pressure-true"></div><a class="a-true"> 1000pa</a>气压</div>
+                            </div>
+                            <p class="slid-p"></p>
+                            <!-- <p><a href="#" class="button button-warning">图像</a></p> -->
+                            <h3 class="title-m">图像</h3>
+                            <!-- <h3>图像</h3> -->
+                            <span class="subtitle" style="margin-bottom: 10px;display: block;">日期：2019-12-12 11:10:10</span >
+                                    <div class="row">
+                                        <div class="col-50">
+                                            <img class="img-true" src="./src/images/wind1.jpg">图一</div>
+                                        <div class="col-50">
+                                            <img class="img-true" src="./src/images/wind1.jpg">图二</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-50">
+                                            <img class="img-true" src="./src/images/wind3.jpg">图三</div>
+                                        <div class="col-50">
+                                            <img class="img-true" src="./src/images/wind3.jpg">图四</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-50">
+                                            <img class="img-true" src="./src/images/wind5.jpg">图五</div>
+
+                                    </div>
+                                    <p class="slid-p"></p>
+                                    <!-- <p><a href="#" class="button button-warning">整点数据</a></p> -->
+                                    <h3 class="title-m">整点数据</h3>
+                                    <!-- <h3>整点数据</h3> -->
+                                    <p> 
+                                         <span class="subtitle">
+                                        站号: </span>
+                                    <a href="#" class="create-actions-stations">58457</a><span class="icon-c"></span>
+                                    <div>日期:</span> <a href="#" class="create-actions-time">2019年12月11日</a><span class="icon-c"></span> 小时: <a href="#" class="create-actions">11</a><span class="icon-c"></span></div>
+                                    </p>
+                                    <table class="table-hour">
+                                        <tr>
+                                            <th>要素</th>
+                                            <th>数值</th>
+                                            <th>极值要素</th>
+                                            <th>极值</th>
+                                            <!-- <th>时间</th> -->
+                                        </tr>
+                                        <tr>
+                                            <td>2分钟平均风</td>
+                                            <td>100m/s</td>
+                                            <td>1小时级大风</td>
+                                            <td>1234m/s</td>
+                                            <!-- <td>2019-12-11</td> -->
+                                        </tr>
+                                        <tr>
+                                            <td>10分钟平均风</td>
+                                            <td>100m/s</td>
+                                            <td>1小时级大风</td>
+                                            <td>1234m/s</td>
+                                            <!-- <td>2019-12-11</td> -->
+                                        </tr>
+                                        <tr>
+                                            <td>整点气温</td>
+                                            <td>12°C</td>
+                                            <td>24小时最高温</td>
+                                            <td>100°C</td>
+                                            <!-- <td>2019-12-11</td> -->
+                                        </tr>
+                                        <tr>
+                                            <td>露点气温</td>
+                                            <td>2°C</td>
+                                            <td>24小时最高温</td>
+                                            <td>10°C</td>
+                                            <!-- <td>2019-12-11</td> -->
+                                        </tr>
+                                        <tr>
+                                            <td>相对湿度</td>
+                                            <td>41%</td>
+                                            <td>24小时最高</td>
+                                            <td></td>
+                                            <!-- <td>2019-12-11</td> -->
+                                        </tr>
+                                        <tr>
+                                            <td>本站气压</td>
+                                            <td>1012pha</td>
+                                            <td>3小时变压</td>
+                                            <td>9192pha</td>
+                                            <!-- <td>2019-12-11</td> -->
+                                        </tr>
+                                    </table>
+                                </div>
+
+
+
+                            </div>
+                            <div id="tab2" class="tab">
+                                <div class="content-block">
+                                    <!-- <p>This is tab 2 content</p> -->
+                                    <div class="content-block-title">硬件设置</div>
+                                    <div class="list-block">
+                                        <ul>
+                                            <li class="item-content">
+                                                <div class="item-media"><i class="icon icon-f7"></i></div>
+                                                <div class="item-inner" style="margin-left:0">
+                                                    <div class="item-title">串口</div>
+                                                    <div class="item-after">absp链接</div>
+                                                </div>
+                                            </li>
+                                            <li class="item-content">
+                                                <div class="item-media"><i class="icon icon-f7"></i></div>
+                                                <div class="item-inner" style="margin-left:0">
+                                                    <div class="item-title">波特率</div>
+                                                    <div class="item-after">9000</div>
+                                                </div>
+                                            </li>
+                                            <li class="item-content">
+                                                <div class="item-media"><i class="icon icon-f7"></i></div>
+                                                <div class="item-inner" style="margin-left:0">
+                                                    <div class="item-title">刷新时间</div>
+                                                    <div class="item-after">1s</div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="content-block-title">软件设置</div>
+                                    <div class="list-block">
+                                        <ul>
+                                            <li class="item-content">
+                                                <div class="item-media"><i class="icon icon-f7"></i></div>
+                                                <div class="item-inner" style="margin-left:0">
+                                                    <div class="item-title">风向单位</div>
+                                                    <div class="item-after">角度</div>
+                                                </div>
+                                            </li>
+                                            <li class="item-content">
+                                                <div class="item-media"><i class="icon icon-f7"></i></div>
+                                                <div class="item-inner" style="margin-left:0">
+                                                    <div class="item-title">风速单位</div>
+                                                    <div class="item-after">m/s</div>
+                                                </div>
+                                            </li>
+                                            <li class="item-content">
+                                                <div class="item-media"><i class="icon icon-f7"></i></div>
+                                                <div class="item-inner" style="margin-left:0">
+                                                    <div class="item-title">温度单位</div>
+                                                    <div class="item-after">摄氏度</div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="content-block-title">气象站及数据传输设置</div>
+                                    <div class="list-block">
+
+
+                                        <ul>
+                                            <li class="item-content">
+                                                <div class="item-media"><i class="icon icon-f7"></i></div>
+                                                <div class="item-inner" style="margin-left:0">
+                                                    <table class="table-sys">
+                                                        <tr>
+                                                            <th>站号</th>
+                                                            <th>名称</th>
+                                                            <th>经度</th>
+                                                            <th>纬度</th>
+                                                            <!-- <th>时间</th> -->
+                                                        </tr>
+                                                        <tr>
+                                                            <td>58457</td>
+                                                            <td>杭州</td>
+                                                            <td>130</td>
+                                                            <td>30</td>
+                                                            <!-- <td>2019-12-11</td> -->
+                                                        </tr>
+                                                        <tr>
+                                                            <td>58457</td>
+                                                            <td>杭州</td>
+                                                            <td>130</td>
+                                                            <td>30</td>
+                                                            <!-- <td>2019-12-11</td> -->
+                                                        </tr>
+                                                        <tr>
+                                                            <td>58457</td>
+                                                            <td>杭州</td>
+                                                            <td>130</td>
+                                                            <td>30</td>
+                                                            <!-- <td>2019-12-11</td> -->
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="row " style="margin-top: 10px;">
+                                            <div class="col-50">
+                                                <a href="#" class="button ">新增</a></div>
+                                            <div class="col-50">
+                                                <a href="#" class="button ">删除</a></div>
+                                        </div>
+                                        <p style="font-size: .6rem;">经纬范围为 -180~180，负值为东经，纬度范围为 -90~90，正值为北纬</p>
+                                        <p>数据地址：<label>http://192.168.1.15:1211/api/data</label></p>
+
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-50"><a href="#" class="button button-big button-fill button-danger">取消 / 退出</a></div>
+                                        <div class="col-50"><a href="#" class="button button-big button-fill button-success">保存</a></div>
+                                        <!-- <div class="col-50"><a href="#" class="button button-big button-fill button-danger">退出</a></div> -->
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- 实况监测 -->
+                <div>
+
+                    <!-- 实况数据 -->
+                    <div></div>
+
+                    <!-- 图像 ：默认收起-->
+                    <div></div>
+                    <!-- 整点数据 -->
+                    <div></div>
+                </div>
+                <!-- 系统配置 -->
+                <div>
+
+                </div>
+            </div>
+            <script src="./node_modules/zepto/dist/zepto.min.js"></script>
+            <script src="./src/sul-mobile/js/sm.js"></script>
+            <script src="./src/sul-mobile/js/sm-extend.js"></script>
+            <script>
+                $("#datetime-picker").datetimePicker({
+                    // value: ['2019', '12', '04', '9', '34']
+                    value: ['2019', '12', '04', '0', '0']
+                });
+
+                // 站号
+                $(document).on('click', '.create-actions-stations', function() {
+                    var buttons1 = [{
+                        text: '请选择',
+                        label: true
+                    }, {
+                        text: '58457',
+                        bold: true,
+                        //   color: 'danger',
+                        onClick: function() {
+                            $.alert("你选择了“58457“站");
+                        }
+                    }, {
+                        text: '62895',
+                        onClick: function() {
+                            $.alert("你选择了“62895“站");
+                        }
+                    }, {
+                        text: '51813',
+                        onClick: function() {
+                            $.alert("你选择了“51813“站");
+                        }
+                    }];
+                    var buttons2 = [{
+                        text: '取消',
+                        bg: 'danger'
+                    }];
+                    var groups = [buttons1, buttons2];
+                    $.actions(groups);
+                });
+
+                // 整点数据-小时
+                $(document).on('click', '.create-actions', function() {
+                    var buttons1 = [{
+                        text: '请选择',
+                        label: true
+                    }, {
+                        text: '5',
+                        bold: true,
+                        //   color: 'danger',
+                        onClick: function() {
+                            $.alert("你选择了“5“小时");
+                        }
+                    }, {
+                        text: '8',
+                        onClick: function() {
+                            $.alert("你选择了“8“小时");
+                        }
+                    }, {
+                        text: '11',
+                        onClick: function() {
+                            $.alert("你选择了“11“小时");
+                        }
+                    }];
+                    var buttons2 = [{
+                        text: '取消',
+                        bg: 'danger'
+                    }];
+                    var groups = [buttons1, buttons2];
+                    $.actions(groups);
+                });
+
+                // 整点数据-年月日
+                $(document).on('click', '.create-actions-time', function() {
+                    var buttons1 = [{
+                        text: '请选择',
+                        label: true
+                    }, {
+                        text: '2019年01月16日',
+                        bold: true,
+                        //   color: 'danger',
+                        onClick: function() {
+                            $.alert("你选择了“2019年01月16日“");
+                        }
+                    }, {
+                        text: '2019年05月09日',
+                        onClick: function() {
+                            $.alert("你选择了“2019年05月09日“");
+                        }
+                    }, {
+                        text: '2019年10月17日',
+                        onClick: function() {
+                            $.alert("你选择了“2019年10月17日“");
+                        }
+                    }];
+                    var buttons2 = [{
+                        text: '取消',
+                        bg: 'danger'
+                    }];
+                    var groups = [buttons1, buttons2];
+                    $.actions(groups);
+                });
+            </script>
+</body>
+
+</html>
